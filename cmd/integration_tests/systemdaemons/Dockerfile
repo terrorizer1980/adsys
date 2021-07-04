@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM ubuntu:20.10
 
 COPY cmd/adsysd/integration_tests/systemdaemons/dbus.conf /
 COPY cmd/adsysd/integration_tests/systemdaemons/systemdaemons.sh /
