@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM ubuntu:22.04
 
 COPY cmd/adsysd/integration_tests/systemdaemons/dbus.conf /
 COPY cmd/adsysd/integration_tests/systemdaemons/systemdaemons.sh /
