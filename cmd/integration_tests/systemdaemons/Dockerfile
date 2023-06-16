@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM ubuntu:kinetic
 
 COPY cmd/adsysd/integration_tests/systemdaemons/dbus.conf /
 COPY cmd/adsysd/integration_tests/systemdaemons/systemdaemons.sh /
